@@ -93,130 +93,41 @@
 
   </header><!-- End Header -->
 <br><br><br><br><br><br><br>
-  <!-- ======= Hero Section ======= -->
-  <!-- Our Facilities Section -->
-<section id="facilities" class="facilities">
-  <div class="container" data-aos="fade-up">
 
-    <div class="section-title">
-      <h2>Our Facilities</h2>
-      <p>Learners at St. Michael FSJ School experience a conducive learning environment with our state-of-the-art facilities that support academic and extracurricular activities.</p>
-    </div>
+    <div class="container">
+         <h1>St. Michael FSJ School Tour Form</h1>
 
-    <!-- Facility Details -->
-    <div class="facility-details">
-      <div class="facility">
-        <h3>Modern Classrooms</h3>
-        <img src="assets/img/facility-modern-clasroom.jpeg">
-        <p>Spacious and well-equipped classrooms designed to enhance the learning experience of our students.</p>
-      </div>
-      <div class="facility">
-        <h3>Science Laboratories</h3>
-        <img src="assets/img/facility-lab.jpeg">
-        <p>Explore the wonders of science in our fully equipped laboratories for practical and hands-on experiments.</p>
-      </div>
-      <div class="facility">
-        <h3>Sports Complex</h3>
-        <img src="assets/img/facility-playfield.jpeg">
-        <p>Engage in physical activities and sports in our dedicated sports complex, promoting a healthy lifestyle.</p>
-      </div>
-      <div class="facility">
-        <h3>Library and Resource Center</h3>
-        <img src="assets/img/facility3.jpeg">
-        <p>A vast collection of books, digital resources, and study spaces for academic research and self-study.</p>
-      </div>
-      <div class="facility">
-        <h3>Technology Hub</h3>
-        <img src="assets/img/facility-computer.jpeg">
-        <p>Access to the latest technology and computing resources to enhance digital literacy skills.</p>
-      </div>
-      <div class="facility">
-        <h3>Arts and Music Studios</h3>
-        <img src="assets/img/facility-music.jpeg">
-        <p>Dedicated spaces for creative expression, including art studios and music practice rooms.</p>
-      </div>
-      <div class="facility">
-        <h3>Outdoor Learning Spaces</h3>
-        <img src="assets/img/facility-children.jpeg">
-        <p>Explore outdoor classrooms and learning spaces for a refreshing and nature-infused educational experience.</p>
-      </div>
-      <div class="facility">
-        <h3>Health and Wellness Center</h3>
-        <img src="assets/img/facility-health.jpeg">
-        <p>A facility focused on promoting student health and well-being, including medical services and counseling.</p>
-      </div>
-      <div class="facility">
-        <h3>Conference and Seminar Halls</h3>
-        <img src="assets/img/facility-seminar.jpeg">
-        <p>Spaces for hosting conferences, seminars, and guest lectures, fostering intellectual discussions.</p>
-      </div>
-      <div class="facility">
-        <h3>Cafeteria</h3>
-        <img src="assets/img/facility-dining.jpeg">
-        <p>A vibrant cafeteria offering nutritious meals and a social space for students to connect during breaks.</p>
-      </div>
-      <div class="facility">
-        <h3>Interactive Smart Boards</h3>
-        <img src="assets/img/facility-board2.jpeg">
-        <p>Engage in dynamic learning with interactive smart boards in classrooms for visual and interactive lessons.</p>
-      </div>
-      <div class="facility">
-        <h3>Community Service Center</h3>
-        <img src="assets/img/facility-service.jpeg">
-        <p>Participate in community service initiatives through our dedicated center for community outreach.</p>
-      </div>
-      <div class="facility">
-        <h3>Toilet Facilities</h3>
-        <img src="assets/img/facility toilets.jpeg">
-        <p>Modern and well-maintained toilet facilities for the convenience of our students and staff.</p>
-      </div>
-      <div class="facility">
-        <h3>Water Facilities</h3>
-        <img src="assets/img/facility-tank.jpeg">
-        <p>Accessible water facilities to ensure students have a convenient source of clean and safe drinking water.</p>
-      </div>
-      <div class="facility">
-        <h3>Computer Labs</h3>
-        <img src="assets/img/facility-computer.jpeg">
-        <p>Equipped computer labs with the latest technology to enhance computer literacy and programming skills.</p>
-      </div>
-      <div class="facility">
-        <h3>Dormitories</h3>
-        <img src="assets/img/facility-bed.jpeg">
-        <p>Comfortable and secure dormitory facilities for students who reside on the school premises.</p>
-      </div>
-      <div class="facility">
-        <h3>Sports Facilities</h3>
-        <img src="assets/img/facility-sport.jpeg">
-        <p>Specialized sports facilities for various games and athletics, encouraging physical fitness and teamwork.</p>
-      </div>
-      <!-- Additional Facilities -->
-      <div class="facility">
-        <h3>Robotics Lab</h3>
-        <img src="assets/img/facility-robot.jpeg">
-        <p>Explore the field of robotics in our specialized lab equipped with the latest robotic technologies.</p>
-      </div>
-      <!-- Add more facility details as needed -->
-    </div>
+    <form action="https://formspree.io/f/xbjnlkvy" method="post">
+        <!-- Personal Information -->
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
 
-    <!-- Explore More -->
-    <div class="explore-more">
-      <p>Discover the richness of our facilities that contribute to a holistic educational experience. Visit us to explore more!</p>
-      <a href="contact.html" class="btn btn-primary">Visit Us</a>
-    </div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
 
-  </div>
-</section>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
 
-        </div>
+        <!-- Tour Information -->
+        <label for="tourDate">Preferred Tour Date:</label>
+        <input type="date" id="tourDate" name="tourDate" required>
+
+        <label for="tourTime">Preferred Tour Time:</label>
+        <input type="time" id="tourTime" name="tourTime" required>
+
+        <!-- Additional Information -->
+        <label for="participants">Number of Participants:</label>
+        <input type="number" id="participants" name="participants" required>
+
+        <label for="message">Message (Optional):</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit Tour Request">
+    </form>
     </div>
-    </div>
-  </section><!-- End Hero -->
-<br>
-<br>
-<br>
-<br><br><br>
-  <!-- ======= Footer ======= -->
+<br><br><br><br>
+<!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
       <div class="footer-bottom">

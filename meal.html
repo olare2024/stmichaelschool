@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Contact - St. Michael School Bootstrap Template</title>
+  <title>Contact - St. Michael FSJ School Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -41,7 +41,7 @@
   <header id="header" class="fixed-top">
     <div class="container-fluid d-flex justify-content-between align-items-center">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">St. Michael School</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">St. Michael FSJ School</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
        <a href="index.html" class="logo"><img src="assets/img/st.michael.png" alt="" class="img-fluid"></a>
 
@@ -64,13 +64,13 @@
 
       <!-- Dropdown for Admission and FAQ -->
       <li class="dropdown">
-        <a href="#" class="dropbtn">Admission</a>
+        <a href="#" class="dropbtn">Activities</a>
         <div class="dropdown-content">
           <a href="admission.html">Admission</a>
           <a href="FAQ.html">FAQ</a>
           <a href="meal.html">Meals</a>
           <a href="medication.html">Medication</a>
-          <a href="upload.html">Upload form</a>
+          <a href="notice.html">Notice Board</a>
           <!-- Add more options as needed -->
       
           
@@ -92,20 +92,25 @@
     </div>
 
   </header><!-- End Header -->
-<br><br><br><br><br><br>
-  <section class="container">
-    <h1 class="text-center mt-5">St. Michael School</h1>
-    <p class="text-center">Providing Nutritious and Balanced Meals for Students</p>
-  </section>
+<br><br><br><br><br><br><br>
 
-  <section class="container">
-    <img src="meal-image.jpg" alt="Healthy School Meals" class="img-fluid mb-4">
-    <h2>Meal Plans</h2>
-    <p>
-      At St. Michael School, we understand the importance of providing wholesome and balanced meals to support the well-being and academic success of our students. Our meal plans are designed to offer a variety of nutritious options, accommodating different tastes and dietary needs.
-    </p>
+  <!-- ======= Slideshow Sections ======= -->
 
-    <h3>Breakfast Options</h3>
+  <!-- Breakfast Slideshow -->
+  <section class="container">
+    <div class="swiper-container breakfast-swiper">
+      <div class="swiper-wrapper">
+        <!-- Add your breakfast images as slides -->
+        <div class="swiper-slide"><img src="assets/img/meal6-A.jpg" alt="Dinner 1"></div>
+        <div class="swiper-slide"><img src="assets/img/meal6-B.jpg" alt="Dinner 2"></div>
+        <div class="swiper-slide"><img src="assets/img/meal6-c.jpg" alt="Dinner 3"></div>
+      </div>
+      <!-- Add navigation buttons -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+    <h2>Breakfast Options</h2>
     <ul>
       <li>Whole Grain Cereal with Milk and Fresh Fruits</li>
       <li>Oatmeal with Toppings: Honey, Raisins, Nuts, and Sliced Apples</li>
@@ -113,7 +118,20 @@
     </ul>
   </section>
 
+  <!-- Lunch Slideshow -->
   <section class="container">
+    <div class="swiper-container lunch-swiper">
+      <div class="swiper-wrapper">
+        <!-- Add your lunch images as slides -->
+        <div class="swiper-slide"><img src="assets/img/meal1.jpg" alt="Dinner 1"></div>
+        <div class="swiper-slide"><img src="assets/img/meal2.jpg" alt="Dinner 2"></div>
+        <div class="swiper-slide"><img src="assets/img/meal3.jpg" alt="Dinner 3"></div>
+      </div>
+      <!-- Add navigation buttons -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
     <h2>Lunch Choices</h2>
     <ul>
       <li>Sandwich Bar with Whole-Grain Options, Lean Proteins, and Fresh Veggies</li>
@@ -122,7 +140,20 @@
     </ul>
   </section>
 
+  <!-- Snack Slideshow -->
   <section class="container">
+    <div class="swiper-container snack-swiper">
+      <div class="swiper-wrapper">
+        <!-- Add your snack images as slides -->
+        <div class="swiper-slide"><img src="assets/img/meal4.jpg" alt="Dinner 1"></div>
+        <div class="swiper-slide"><img src="assets/img/meal5.jpg" alt="Dinner 2"></div>
+        <div class="swiper-slide"><img src="assets/img/meal2.jpg" alt="Dinner 3"></div>
+      </div>
+      <!-- Add navigation buttons -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
     <h2>Snack Time</h2>
     <ul>
       <li>Fresh Fruit and Cheese</li>
@@ -131,7 +162,20 @@
     </ul>
   </section>
 
+  <!-- Dinner Slideshow -->
   <section class="container">
+    <div class="swiper-container dinner-swiper">
+      <div class="swiper-wrapper">
+        <!-- Add your dinner images as slides -->
+        <div class="swiper-slide"><img src="assets/img/meal1.jpg" alt="Dinner 1"></div>
+        <div class="swiper-slide"><img src="assets/img/meal2.jpg" alt="Dinner 2"></div>
+        <div class="swiper-slide"><img src="assets/img/meal3.jpg" alt="Dinner 3"></div>
+      </div>
+      <!-- Add navigation buttons -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
     <h2>Dinner Menu</h2>
     <ul>
       <li>Grilled Chicken or Fish</li>
@@ -140,23 +184,7 @@
     </ul>
   </section>
 
-  <section class="container">
-    <h2>Beverage Options</h2>
-    <ul>
-      <li>Water - Encouraged as the Primary Beverage</li>
-      <li>Milk - Low-Fat or Non-Fat Options</li>
-      <li>100% Fruit Juice (in Moderation)</li>
-    </ul>
-  </section>
-
-  <section class="container">
-    <h2>Considerations</h2>
-    <ul>
-      <li>Allergies and Dietary Restrictions: Please inform us of any allergies or dietary restrictions your child may have.</li>
-      <li>Portion Sizes: We provide age-appropriate portion sizes to ensure a balanced diet.</li>
-      <li>Educational Component: We incorporate educational elements to promote healthy eating habits among students.</li>
-    </ul>
-  </section>
+  <!-- ======= End Slideshow Sections ======= -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -192,7 +220,63 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+<script>
+    // Breakfast Swiper
+    var breakfastSwiper = new Swiper('.breakfast-swiper', {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      loop: true,
+      autoplay: {
+        delay: 5000, // Change slide every 2 seconds
+      },
+    });
 
+    // Lunch Swiper
+    var lunchSwiper = new Swiper('.lunch-swiper', {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      loop: true,
+      autoplay: {
+        delay: 5000, // Change slide every 2 seconds
+      },
+    });
+
+    // Snack Swiper
+    var snackSwiper = new Swiper('.snack-swiper', {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      loop: true,
+      autoplay: {
+        delay: 5000, // Change slide every 2 seconds
+      },
+    });
+
+    // Dinner Swiper
+    var dinnerSwiper = new Swiper('.dinner-swiper', {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      loop: true,
+      autoplay: {
+        delay: 5000, // Change slide every 2 seconds
+      },
+    });
+  </script>
 </body>
 
 </html>

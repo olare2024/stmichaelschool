@@ -258,3 +258,51 @@ function toggleAnswer(answerId) {
         answer.style.display = 'none';
       }
     }
+
+  // Initialize Swiper when the DOM is ready
+  document.addEventListener('DOMContentLoaded', function () {
+    // Breakfast Swiper
+    var breakfastSwiper = new Swiper('.breakfast-swiper', {
+      loop: true,
+      spaceBetween: 10,
+      slidesPerView: 1,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+    // Lunch Swiper
+    var lunchSwiper = new Swiper('.lunch-swiper', {
+      loop: true,
+      spaceBetween: 10,
+      slidesPerView: 1,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+    // Snack Swiper
+    var snackSwiper = new Swiper('.snack-swiper', {
+      loop: true,
+      spaceBetween: 10,
+      slidesPerView: 1,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+    // Dinner Swiper
+    var dinnerSwiper = new Swiper('.dinner-swiper', {
+      loop: true,
+      spaceBetween: 10,
+      slidesPerView: 1,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  });
+
